@@ -1,0 +1,18 @@
+#GIT
+.gitignore
+.git
+
+#Docker
+.docker
+
+#Python
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
+
+#docker-compose run --rm app sh -c "django-admin startproject app ."
+#docker-compose run --rm app sh -c "flake8"
