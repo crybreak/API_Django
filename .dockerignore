@@ -16,3 +16,7 @@ venv/
 
 #docker-compose run --rm app sh -c "django-admin startproject app ."
 #docker-compose run --rm app sh -c "flake8"
+#docker-compose run --rm app sh -c "python manage.py startapp core"
+# docker volume rm api_django_dev-db-data
+#docker network inspect api_django_default
+#docker-compose down --remove-orphans
